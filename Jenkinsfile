@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                sh './deliver1.sh' 
+                sh './deliver.sh' 
             }
         }
     }
